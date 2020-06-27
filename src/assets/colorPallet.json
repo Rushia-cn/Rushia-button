@@ -1,0 +1,74 @@
+[
+    {
+        "name": {"en": "Classical high contract", "zh": "经典高对比度"},
+        "background": "#dfdfdf",
+        "btnColor": "#65cdaa",
+        "fontColor": "#2c3e50",
+        "boxShadow": [
+            "#c6c6c6",
+            "#f8f8f8"
+        ],
+        "distance": 5,
+        "blur": 10
+    },
+    {
+        "name": {"en": "Classical inverse high contract", "zh": "经典逆高对比度"},
+        "background": "#65cdaa",
+        "btnColor": "#dfdfdf",
+        "fontColor": "#2c3e50",
+        "boxShadow": [
+            "#5cbb9b",
+            "#6edfb9"
+        ],
+        "distance": 5,
+        "blur": 10
+    },
+    {
+        "name": {"en": "Shape of Rushia", "zh": "粽子的形状"},
+        "background": "#65cdaa",
+        "btnColor": "#65cdaa",
+        "fontColor": "#2c3e50",
+        "boxShadow": [
+            "#5cbb9b",
+            "#6edfb9"
+        ],
+        "distance": 5,
+        "blur": 10
+    },
+    {
+        "name": {"en": "Shape of pink Rushia", "zh": "粉粽子高对比度"},
+        "background": "#dfdfdf",
+        "btnColor": "#c39dd2",
+        "fontColor": "#191919",
+        "boxShadow": [
+            "#c9c9c9",
+            "#f5f5f5"
+        ],
+        "distance": 5,
+        "blur": 10
+    },
+    {
+        "name": {"en": "Pink Rushia high contract", "zh": "粉粽子的形状"},
+        "background": "#c39dd2",
+        "btnColor": "#c39dd2",
+        "fontColor": "#191919",
+        "boxShadow": [
+            "#ae8cbb",
+            "#d8aee9"
+        ],
+        "distance": 5,
+        "blur": 10
+    },
+    {
+        "name": {"en": "WTF IS THIS", "zh": "这TM是啥"},
+        "background": "#c39dd2",
+        "btnColor": "#65cdaa",
+        "fontColor": "#191919",
+        "boxShadow": [
+            "#ae8cbb",
+            "#d8aee9"
+        ],
+        "distance": 5,
+        "blur": 10
+    }
+]
