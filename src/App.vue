@@ -29,7 +29,9 @@
           { 'icon': 'home', 'name': { 'en': 'Rushia Button', 'zh': '粽按钮' }, 'to': '/#/' },
           { 'icon': 'cloud-upload', 'name': { 'en': 'Contribute', 'zh': '贡献' }, 'to': '/#/contribute' },
           { 'icon': 'bg-colors', 'name': { 'en': 'Color Pallet', 'zh': '调色板' }, 'to': '/#/color' },
-          { 'icon': 'github', 'name': { 'en': 'Github' }, 'to': 'https://github.com/GeorgeMiao219/Rushia-button' },
+          { 'icon': 'youtube', 'name': { 'en': '' }, 'to': 'https://www.youtube.com/channel/UCl_gCybOJRIgOXw6Qb4qJzQ' },
+          { 'icon': 'twitter', 'name': { 'en': '' }, 'to': 'https://twitter.com/uruharushia' },
+          { 'icon': 'github', 'name': { 'en': '' }, 'to': 'https://github.com/GeorgeMiao219/Rushia-button' },
         ]
       }
     },

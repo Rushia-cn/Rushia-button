@@ -1,8 +1,8 @@
 <template>
     <div class="btn-wrapper">
-        <div v-for="(route, index) in routes" :key="index" :title="route.name" class="nav-btn" @click="window.location = route.to">
+        <div class="nav-btn" v-for="(route, index) in routes" :key="index" :title="route.name" @click="window.location = route.to">
             <Icon class="icon" :type="route.icon" :href="route.to"/>
-            <a>{{localized(route.name)}}</a>
+            <a :name="route.name.en">{{localized(route.name)}}</a>
         </div>
     </div>
 </template>
@@ -47,14 +47,16 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+        flex-grow: 0;
     }
 
-    .nav-btn a {
+    .nav-btn a:not([name=""]) {
         text-decoration: none;
+        margin-left: 0.4rem;
     }
 
     .icon {
         color: #001f3f;
-        margin-right: 0.4rem;
+        
     }
 </style>

@@ -1,5 +1,7 @@
 # Rushia Button
-![rushia](https://i.imgur.com/qECwced.jpg)
+
+## About 
+A button board for vtuber Uruha Rushia.
 ## Contribute
 ### New Clips
 Send us the audio file or link to a video and time for that clip. We will handle the rest. Please provide the name. I18n is recommended -- we currently support ZH and EN, planning to add support for JP in future. You can use:

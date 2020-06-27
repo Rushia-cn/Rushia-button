@@ -42,6 +42,7 @@
         padding: 2rem;
         border-radius: 16px;
         box-sizing: border-box;
+        cursor: pointer;
     }
 
     .demo-btn {
