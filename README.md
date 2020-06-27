@@ -1,24 +1,13 @@
-# rushia_button
+# Rushia Button
+![rushia](https://i.imgur.com/qECwced.jpg)
+## Contribute
+### New Clips
+You just need to send us the audio file or link to a video and time for that clip. We will handle the rest. Please provide the name. I18n is recommended -- we currently support ZH and EN, planning to add support for JP in future. You can use:
+#### Telegram
+This [telegram channel](https://t.me/rushiamajikawaii) for posting new audio clips and info. 
 
-## Project setup
-```
-npm install
-```
+#### Issue
+You can open a new issue for clips. Use this template.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Contribution
+PR is welcomed.

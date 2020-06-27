@@ -29,7 +29,7 @@
           { 'icon': 'home', 'name': { 'en': 'Rushia Button', 'zh': '粽按钮' }, 'to': '/#/' },
           { 'icon': 'cloud-upload', 'name': { 'en': 'Contribute', 'zh': '贡献' }, 'to': '/#/contribute' },
           { 'icon': 'bg-colors', 'name': { 'en': 'Color Pallet', 'zh': '调色板' }, 'to': '/#/color' },
-          { 'icon': 'github', 'name': { 'en': 'Github' }, 'to': 'http://github.com' },
+          { 'icon': 'github', 'name': { 'en': 'Github' }, 'to': 'https://github.com/GeorgeMiao219/Rushia-button' },
         ]
       }
     },
