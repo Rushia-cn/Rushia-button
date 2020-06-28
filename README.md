@@ -1,21 +1,26 @@
-# Rushia Button
+# 粽按钮
 
-Of course we also support:
+我们当然还支持：
 
-[CN - 中文](https://github.com/Rushia-cn/Rushia-button/blob/master/README.CN.md)
-## About 
-A button board for vtuber Uruha Rushia.
+[英文 - EN](https://github.com/Rushia-cn/Rushia-button/blob/master/README.EN.md)
+## 关于 
+Vtuber [润羽露西娅](https://space.bilibili.com/443300418?) 的按钮面板
 
-Notice: **This is a spontaneous project by fans and has no relation with Uruha Rushia or Hololive**
+注意：**这是一个粉丝自发的项目，与本人或Hololive无关**
 
-## Contribute
-### New Clips
-Send us the audio file or link to a video and time for that clip. We will handle the rest. Please provide the name. I18n is recommended -- we currently support ZH and EN, planning to add support for JP in future. You can use:
+## 贡献
+### 新的音频片段
+目前有两个办法来添加新的音频片段：
+- 直接将音频文件和信息发送给我们
+- 或是将音频的来源(例如一个youtube视频的链接)和片段的时间发送给我们，我们会处理好接下来的事情。i18n是强烈建议的，目前我们支持英文和中文，计划在未来加入对日文的支持。
+
+你可以使用以下办法：
+
 #### Telegram
-This [telegram channel](https://t.me/rushiamajikawaii) for posting new audio clips and info. 
+可以使用这个 [telegram 频道](https://t.me/rushiamajikawaii) 来发送音频和信息。
 
 #### Issue
-You can open a new issue for clips. Use this template.
+你也可以使用Github Issue。使用这个模板。
 
-### Bug report and fix
-PR is welcomed.
+### Bug修复
+我们欢迎Pull Request。
