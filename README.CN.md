@@ -1,5 +1,8 @@
 # 粽按钮
 
+我们当然还支持：
+
+[英文 - EN](https://github.com/Rushia-cn/Rushia-button)
 ## 关于 
 Vtuber [润羽露西娅](https://space.bilibili.com/443300418?) 的按钮面板
 

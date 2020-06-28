@@ -1,7 +1,11 @@
 # Rushia Button
 
+Of course we also support:
+
+[CN - 中文](https://github.com/Rushia-cn/Rushia-button/blob/master/README.CN.md)
 ## About 
 A button board for vtuber Uruha Rushia.
+
 ## Contribute
 ### New Clips
 Send us the audio file or link to a video and time for that clip. We will handle the rest. Please provide the name. I18n is recommended -- we currently support ZH and EN, planning to add support for JP in future. You can use:
