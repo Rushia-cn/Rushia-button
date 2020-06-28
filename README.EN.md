@@ -2,7 +2,7 @@
 
 Of course we also support:
 
-[CN - 中文](https://github.com/Rushia-cn/Rushia-button)
+[中文](https://github.com/Rushia-cn/Rushia-button)
 ## About 
 A button board for vtuber Uruha Rushia.
 
