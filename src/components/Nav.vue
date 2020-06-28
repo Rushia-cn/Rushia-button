@@ -1,6 +1,6 @@
 <template>
     <div class="btn-wrapper">
-        <div class="nav-btn" v-for="(route, index) in routes" :key="index" :title="route.name" @click="window.location = route.to">
+        <div class="nav-btn" :class="{grow: localized(route.name)}" v-for="(route, index) in routes" :key="index" :title="route.name" @click="window.location = route.to">
             <Icon class="icon" :type="route.icon" :href="route.to"/>
             <a :name="route.name.en">{{localized(route.name)}}</a>
         </div>
@@ -47,7 +47,11 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        flex-grow: 0;
+        flex-grow: 1;
+    }
+
+    .grow {
+        flex-grow: 1000;
     }
 
     .nav-btn a:not([name=""]) {

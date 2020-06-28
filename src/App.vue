@@ -31,7 +31,7 @@
           { 'icon': 'bg-colors', 'name': { 'en': 'Color Pallet', 'zh': '调色板' }, 'to': '/#/color' },
           { 'icon': 'youtube', 'name': { 'en': '' }, 'to': 'https://www.youtube.com/channel/UCl_gCybOJRIgOXw6Qb4qJzQ' },
           { 'icon': 'twitter', 'name': { 'en': '' }, 'to': 'https://twitter.com/uruharushia' },
-          { 'icon': 'github', 'name': { 'en': '' }, 'to': 'https://github.com/GeorgeMiao219/Rushia-button' },
+          { 'icon': 'github', 'name': { 'en': '' }, 'to': 'https://github.com/Rushia-cn/Rushia-button' },
         ]
       }
     },
