@@ -1,7 +1,6 @@
 # Rushia Button
 
-Of course we also support:
-
+[English](https://github.com/Rushia-cn/Rushia-button/blob/master/README.EN.md) | 
 [中文](https://github.com/Rushia-cn/Rushia-button)
 ## About 
 A button board for vtuber Uruha Rushia.
