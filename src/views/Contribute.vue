@@ -1,5 +1,5 @@
 <template>
     <div class="contribute">
-    Contribute Now
+    Coming Soon. Working on it rn.
     </div>
 </template>
