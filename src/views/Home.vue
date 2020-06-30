@@ -12,12 +12,8 @@
     components: {
       Panel
     },
-    mounted() {
-      //Load meta.json from server
-      
-    },
     data() {
-      return this.$a.get("https://static.miao.dev/rushia")
+      return this.$a.get("https://category.rushia.moe")
     }
   }
 </script>
