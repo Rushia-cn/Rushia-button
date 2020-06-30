@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import axios from 'axios'
 
 import App from './App.vue'
 import { i18n } from './i18n.js'
@@ -10,6 +11,7 @@ Vue.prototype.$play = play
 Vue.prototype.$ft = (path, obj) => {
   return i18n._t(path, i18n.locale, obj)
 }
+Vue.prototype.$a = axios
 Vue.config.productionTip = false
 
 new Vue({

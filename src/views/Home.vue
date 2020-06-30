@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Panel v-for="(category, index) in categories" :key='index' :clips='category.clips' :category='category.category'>
+    <Panel v-for="(category, index) in categories" :key='index' :clips='category.clips' :category='category.name'>
     </Panel>
   </div>
 </template>
@@ -14,28 +14,10 @@
     },
     mounted() {
       //Load meta.json from server
-
+      
     },
     data() {
-      return {
-        categories: [{
-          category: { "en": {"name": "TEST CAT 1"}, "zh": {"name": "测试用分类 1"} },
-          clips: [
-            { "clipID": "0", "lang": { "en": { clipName: "Rushia" }, "zh": { clipName: "粽子" } } },
-            { "clipID": "0", "lang": { "en": { clipName: "Rushia" }, "zh": { clipName: "粽子" } } },
-            { "clipID": "0", "lang": { "en": { clipName: "Rushia" }, "zh": { clipName: "粽子" } } },
-            { "clipID": "0", "lang": { "en": { clipName: "Rushia" }, "zh": { clipName: "粽子" } } },
-          ]
-        }, {
-          category: { "en": {"name": "TEST CAT 2"}, "zh": {"name": "测试用分类 2"} },
-          clips: [
-            { "clipID": "0", "lang": { "en": { clipName: "Rushia" }, "zh": { clipName: "粽子" } } },
-            { "clipID": "0", "lang": { "en": { clipName: "Rushia" }, "zh": { clipName: "粽子" } } },
-            { "clipID": "0", "lang": { "en": { clipName: "Rushia" }, "zh": { clipName: "粽子" } } },
-            { "clipID": "0", "lang": { "en": { clipName: "Rushia" }, "zh": { clipName: "粽子" } } },
-          ]
-        }]
-      }
+      return this.$a.get("https://static.miao.dev/rushia")
     }
   }
 </script>

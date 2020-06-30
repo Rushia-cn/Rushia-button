@@ -1,12 +1,12 @@
 <template>
-    <div class="btn" @click="$play('https://suisei.moe/assets/IRr6aAS3zLQ--2596.4--2599.mp3')">
+    <div class="btn" @click="$play(url)">
         {{ $ft('clipName', lang) }}
     </div>
 </template>
 <script>
     export default {
         name: "BaseButton",
-        props: ["ID", "lang"]
+        props: ["url", "lang"]
     }
 </script>
 <style>
