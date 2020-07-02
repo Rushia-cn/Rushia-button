@@ -12,7 +12,6 @@ import play from '@/player'
 Vue.use(AsyncComputed)
 
 Vue.prototype.$play = play
-Vue.prototype.$ft = (path, obj) => i18n._t(path, i18n.locale, obj)
 Vue.prototype.$loc = name => name[i18n.locale] || name["en"] || ""
 Vue.prototype.$a = axios
 Vue.config.productionTip = false

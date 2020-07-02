@@ -8,6 +8,7 @@
     export default {
         name: "NavBtn",
         props: ["route"],
+        data() { return { window } },
         computed: {
             locName() { return this.$loc(this.route.name) }
         }
