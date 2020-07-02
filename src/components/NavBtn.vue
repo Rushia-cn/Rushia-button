@@ -14,3 +14,8 @@
         }
     }
 </script>
+<style>
+    .nav-btn a {
+        vertical-align: center
+    }
+</style>
