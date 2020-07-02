@@ -26,12 +26,12 @@
     data() {
       return {
         routes: [
-          { 'icon': '&#xe630;', 'name': { 'en': 'Rushia Button', 'zh': '粽按钮' }, 'to': '/#/' },
-          { 'icon': '&#xe617;', 'name': { 'en': 'Contribute', 'zh': '贡献' }, 'to': '/#/contribute' },
-          { 'icon': '&#xe618;', 'name': { 'en': 'Color Pallet', 'zh': '调色板' }, 'to': '/#/color' },
-          { 'icon': '&#xe600;', 'name': { 'en': '' }, 'to': 'https://www.youtube.com/channel/UCl_gCybOJRIgOXw6Qb4qJzQ' },
-          { 'icon': '&#xe7af;', 'name': { 'en': '' }, 'to': 'https://twitter.com/uruharushia' },
-          { 'icon': '&#xe677;', 'name': { 'en': '' }, 'to': 'https://github.com/Rushia-cn/Rushia-button' },
+          { 'icon': '&#xe630;', 'title': 'Home', 'name': { 'en': 'Rushia Button', 'zh': '粽按钮' }, 'to': '/#/' },
+          { 'icon': '&#xe617;', 'title': 'Contribute', 'name': { 'en': 'Contribute', 'zh': '贡献' }, 'to': '/#/contribute' },
+          { 'icon': '&#xe618;', 'title': 'Color Pallet', 'name': { 'en': 'Color Pallet', 'zh': '调色板' }, 'to': '/#/color' },
+          { 'icon': '&#xe600;', 'title': 'Youtube', 'name': { 'en': '' }, 'to': 'https://www.youtube.com/channel/UCl_gCybOJRIgOXw6Qb4qJzQ' },
+          { 'icon': '&#xe7af;', 'title': 'Twitter', 'name': { 'en': '' }, 'to': 'https://twitter.com/uruharushia' },
+          { 'icon': '&#xe677;', 'title': 'Github', 'name': { 'en': '' }, 'to': 'https://github.com/Rushia-cn/Rushia-button' },
         ]
       }
     },

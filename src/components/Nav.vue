@@ -1,8 +1,8 @@
 <template>
     <div class="btn-wrapper">
-        <div class="nav-btn" :class="{grow: localized(route.name)}" v-for="(route, index) in routes" :key="index"
-            :title="route.name" @click="window.location = route.to">
-            <a v-if = "localized(route.name)" :name="route.name.en">{{localized(route.name)}}</a>
+        <div class="nav-btn" :class="{grow: route.name}" v-for="(route, index) in routes" :key="index"
+            :title="route.title" @click="window.location = route.to">
+            <a v-if="route.name" :name="route.name.en">{{route.name}}</a>
             <i class="iconfont" v-html="route.icon"></i>
         </div>
     </div>
@@ -11,8 +11,13 @@
     export default {
         name: "btn-nav",
         props: ["routes"],
+        created() {
+            this.routes.forEach(element => {
+                element.name = this.localized(element.name)
+            });
+        },
         computed: {
-            window(){return window}
+            window() { return window }
         },
         methods: {
             localized(name) {
