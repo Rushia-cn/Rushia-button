@@ -13,7 +13,7 @@ assignees: GeorgeMiao219
 - jp: Optional
 
 ### Category
-exist category or new one (Please attach i18n name for new categories)
+existing category or new one (Please attach i18n name for new categories)
 
 ### Url
 https://the.url.to.video.src
