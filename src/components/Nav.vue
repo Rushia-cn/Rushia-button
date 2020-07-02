@@ -57,8 +57,9 @@
         font-family: Roboto;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        align-items: center;
         flex-grow: 0;
+        justify-content: space-around;
     }
 
     .grow {
