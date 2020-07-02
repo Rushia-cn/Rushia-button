@@ -2,7 +2,7 @@
     <div class="btn-wrapper">
         <div class="nav-btn" :class="{grow: localized(route.name)}" v-for="(route, index) in routes" :key="index"
             :title="route.name" @click="window.location = route.to">
-            <a :name="route.name.en">{{localized(route.name)}}</a>
+            <a v-if = "localized(route.name)" :name="route.name.en">{{localized(route.name)}}</a>
             <i class="iconfont" v-html="route.icon"></i>
         </div>
     </div>
@@ -58,12 +58,11 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        flex-grow: 0;
         justify-content: space-around;
     }
 
     .grow {
-        flex-grow: 1;
+        flex-grow: 100;
     }
 
     .grow a {

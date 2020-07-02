@@ -79,7 +79,7 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: var(--font-color);
-    padding: 1rem;
+    padding: 0.2rem;
     background-color: var(--background);
     min-height: 100vh;
     box-sizing: border-box;
