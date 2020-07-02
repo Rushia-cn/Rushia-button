@@ -1,6 +1,6 @@
 [
     {
-        "name": {"en": "Classical high contract", "zh": "经典高对比度"},
+        "name": {"en": "Classical high contrast", "zh": "经典高对比度", "jp":"ハイコントラスト"},
         "background": "#eaeaea",
         "btnColor": "#65cdaa",
         "fontColor": "#2c3e50",
@@ -12,7 +12,7 @@
         "blur": 10
     },
     {
-        "name": {"en": "Classical inverse high contract", "zh": "经典逆高对比度"},
+        "name": {"en": "Classical inverse high contrast", "zh": "经典逆高对比度", "jp":"逆ハイコントラスト"},
         "background": "#65cdaa",
         "btnColor": "#eaeaea",
         "fontColor": "#2c3e50",
@@ -24,7 +24,7 @@
         "blur": 10
     },
     {
-        "name": {"en": "Shape of Rushia", "zh": "粽子的形状"},
+        "name": {"en": "Shape of Rushia", "zh": "粽子的形状", "jp":"るしあの形"},
         "background": "#65cdaa",
         "btnColor": "#65cdaa",
         "fontColor": "#2c3e50",
@@ -36,7 +36,7 @@
         "blur": 10
     },
     {
-        "name": {"en": "Shape of pink Rushia", "zh": "粉粽子高对比度"},
+        "name": {"en": "Pink Rushia high contrast", "zh": "粉粽子高对比度", "jp":"ピンクなハイコントラスト"},
         "background": "#eaeaea",
         "btnColor": "#c39dd2",
         "fontColor": "#191919",
@@ -48,7 +48,7 @@
         "blur": 10
     },
     {
-        "name": {"en": "Pink Rushia high contract", "zh": "粉粽子的形状"},
+        "name": {"en": "Shape of pink Rushia", "zh": "粉粽子的形状", "jp":"ピンクなるしあの形"},
         "background": "#c39dd2",
         "btnColor": "#c39dd2",
         "fontColor": "#191919",
@@ -60,7 +60,7 @@
         "blur": 10
     },
     {
-        "name": {"en": "WTF IS THIS", "zh": "这TM是啥"},
+        "name": {"en": "WTF IS THIS", "zh": "这TM是啥", "jp":"なんじゃこりゃー"},
         "background": "#c39dd2",
         "btnColor": "#65cdaa",
         "fontColor": "#191919",
