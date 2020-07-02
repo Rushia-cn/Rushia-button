@@ -1,28 +1,15 @@
 <template>
     <div class="btn-wrapper">
-        <div class="nav-btn" :class="{grow: route.name}" v-for="(route, index) in routes" :key="index"
-            :title="route.title" @click="window.location = route.to">
-            <a v-if="route.name" :name="route.name.en">{{route.name}}</a>
-            <i class="iconfont" v-html="route.icon"></i>
-        </div>
+        <NavBtn v-for="(route, index) in routes" :key="index" :route="route"></NavBtn>
     </div>
 </template>
 <script>
+    import NavBtn from '@/components/NavBtn.vue'
     export default {
         name: "btn-nav",
         props: ["routes"],
-        created() {
-            this.routes.forEach(element => {
-                element.name = this.localized(element.name)
-            });
-        },
-        computed: {
-            window() { return window }
-        },
-        methods: {
-            localized(name) {
-                return name[this.$i18n.locale] || name["en"] || ""
-            }
+        components: {
+            NavBtn
         }
     }
 </script>

@@ -3,7 +3,7 @@
         <div class="category-name">{{ $t("demo_cat") }}</div>
         <div class="demo-btn">{{ $t("demo_btn") }} 1</div>
         <div class="demo-btn">{{ $t("demo_btn") }} 2</div>
-        <a class="pallet-name">{{ $ft('', color.name) }}</a>
+        <a class="pallet-name">{{ $loc(color.name) }}</a>
     </div>
 </template>
 <script>

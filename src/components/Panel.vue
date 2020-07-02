@@ -1,11 +1,11 @@
 <template>
     <div class="panel">
-        <div class='title-wrap' @click='show = !show' v-if="category['en']['name'] !== 'default'">
-            <a class="category-name">{{ $ft('name', category) }}</a>
+        <div class='title-wrap' @click='show = !show' v-if="category['en'] !== 'default'">
+            <a class="category-name">{{ $loc(category) }}</a>
             <i :class="[show ? '' : 'rotated', 'drop', 'iconfont']">&#xe620;</i>
         </div>
         <div class="panel-wrap" v-if="show">
-            <BaseButton v-for="(clip, index) in clips" :key="index" :url="clip.url" :lang="clip.lang" />
+            <BaseButton v-for="(clip, index) in clips" :key="index" :url="clip.url" :btnName="clip.name" />
         </div>
     </div>
 </template>

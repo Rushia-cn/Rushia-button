@@ -1,12 +1,12 @@
 <template>
     <div class="btn" @click="$play(url)">
-        {{ $ft('clipName', lang) }}
+        {{ $loc(btnName) }}
     </div>
 </template>
 <script>
     export default {
         name: "BaseButton",
-        props: ["url", "lang"]
+        props: ["url", "btnName"]
     }
 </script>
 <style>

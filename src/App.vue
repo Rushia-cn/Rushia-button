@@ -31,7 +31,9 @@
           { 'icon': '&#xe618;', 'title': 'Color Pallet', 'name': { 'en': 'Color Pallet', 'zh': '调色板' }, 'to': '/#/color' },
           { 'icon': '&#xe600;', 'title': 'Youtube', 'name': { 'en': '' }, 'to': 'https://www.youtube.com/channel/UCl_gCybOJRIgOXw6Qb4qJzQ' },
           { 'icon': '&#xe7af;', 'title': 'Twitter', 'name': { 'en': '' }, 'to': 'https://twitter.com/uruharushia' },
-          { 'icon': '&#xe677;', 'title': 'Github', 'name': { 'en': '' }, 'to': 'https://github.com/Rushia-cn/Rushia-button' },
+          { 'icon': '&#xe75c;', 'title': 'Bilibili', 'name': { 'en': '' }, 'to': 'https://space.bilibili.com/443300418' },
+          { 'icon': '&#xe685;', 'title': 'Github', 'name': { 'en': '' }, 'to': 'https://github.com/Rushia-cn/Rushia-button' },
+          { 'icon': '&#xe9ac;', 'title': 'Telegram', 'name': { 'en': '' }, 'to': 'https://t.me/RushiaBtn' },
         ]
       }
     },
@@ -53,12 +55,12 @@
   @font-face {
     font-family: 'iconfont';
     /* project id 1914903 */
-    src: url('//at.alicdn.com/t/font_1914903_6iuffs43lql.eot');
-    src: url('//at.alicdn.com/t/font_1914903_6iuffs43lql.eot?#iefix') format('embedded-opentype'),
-      url('//at.alicdn.com/t/font_1914903_6iuffs43lql.woff2') format('woff2'),
-      url('//at.alicdn.com/t/font_1914903_6iuffs43lql.woff') format('woff'),
-      url('//at.alicdn.com/t/font_1914903_6iuffs43lql.ttf') format('truetype'),
-      url('//at.alicdn.com/t/font_1914903_6iuffs43lql.svg#iconfont') format('svg');
+    src: url('//at.alicdn.com/t/font_1914903_d8b3vg7ilf5.eot');
+    src: url('//at.alicdn.com/t/font_1914903_d8b3vg7ilf5.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_1914903_d8b3vg7ilf5.woff2') format('woff2'),
+      url('//at.alicdn.com/t/font_1914903_d8b3vg7ilf5.woff') format('woff'),
+      url('//at.alicdn.com/t/font_1914903_d8b3vg7ilf5.ttf') format('truetype'),
+      url('//at.alicdn.com/t/font_1914903_d8b3vg7ilf5.svg#iconfont') format('svg');
   }
 
   html body {

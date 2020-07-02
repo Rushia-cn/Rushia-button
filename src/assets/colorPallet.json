@@ -1,7 +1,7 @@
 [
     {
         "name": {"en": "Classical high contract", "zh": "经典高对比度"},
-        "background": "#dfdfdf",
+        "background": "#eaeaea",
         "btnColor": "#65cdaa",
         "fontColor": "#2c3e50",
         "boxShadow": [
@@ -14,7 +14,7 @@
     {
         "name": {"en": "Classical inverse high contract", "zh": "经典逆高对比度"},
         "background": "#65cdaa",
-        "btnColor": "#dfdfdf",
+        "btnColor": "#eaeaea",
         "fontColor": "#2c3e50",
         "boxShadow": [
             "#5cbb9b",
@@ -37,7 +37,7 @@
     },
     {
         "name": {"en": "Shape of pink Rushia", "zh": "粉粽子高对比度"},
-        "background": "#dfdfdf",
+        "background": "#eaeaea",
         "btnColor": "#c39dd2",
         "fontColor": "#191919",
         "boxShadow": [
