@@ -26,12 +26,12 @@
     data() {
       return {
         routes: [
-          { 'icon': 'home', 'name': { 'en': 'Rushia Button', 'zh': '粽按钮' }, 'to': '/#/' },
-          { 'icon': 'cloud-upload', 'name': { 'en': 'Contribute', 'zh': '贡献' }, 'to': '/#/contribute' },
-          { 'icon': 'bg-colors', 'name': { 'en': 'Color Pallet', 'zh': '调色板' }, 'to': '/#/color' },
-          { 'icon': 'youtube', 'name': { 'en': '' }, 'to': 'https://www.youtube.com/channel/UCl_gCybOJRIgOXw6Qb4qJzQ' },
-          { 'icon': 'twitter', 'name': { 'en': '' }, 'to': 'https://twitter.com/uruharushia' },
-          { 'icon': 'github', 'name': { 'en': '' }, 'to': 'https://github.com/Rushia-cn/Rushia-button' },
+          { 'icon': '&#xe630;', 'name': { 'en': 'Rushia Button', 'zh': '粽按钮' }, 'to': '/#/' },
+          { 'icon': '&#xe617;', 'name': { 'en': 'Contribute', 'zh': '贡献' }, 'to': '/#/contribute' },
+          { 'icon': '&#xe618;', 'name': { 'en': 'Color Pallet', 'zh': '调色板' }, 'to': '/#/color' },
+          { 'icon': '&#xe600;', 'name': { 'en': '' }, 'to': 'https://www.youtube.com/channel/UCl_gCybOJRIgOXw6Qb4qJzQ' },
+          { 'icon': '&#xe7af;', 'name': { 'en': '' }, 'to': 'https://twitter.com/uruharushia' },
+          { 'icon': '&#xe677;', 'name': { 'en': '' }, 'to': 'https://github.com/Rushia-cn/Rushia-button' },
         ]
       }
     },
@@ -50,6 +50,17 @@
   }
 </script>
 <style>
+  @font-face {
+    font-family: 'iconfont';
+    /* project id 1914903 */
+    src: url('//at.alicdn.com/t/font_1914903_6iuffs43lql.eot');
+    src: url('//at.alicdn.com/t/font_1914903_6iuffs43lql.eot?#iefix') format('embedded-opentype'),
+      url('//at.alicdn.com/t/font_1914903_6iuffs43lql.woff2') format('woff2'),
+      url('//at.alicdn.com/t/font_1914903_6iuffs43lql.woff') format('woff'),
+      url('//at.alicdn.com/t/font_1914903_6iuffs43lql.ttf') format('truetype'),
+      url('//at.alicdn.com/t/font_1914903_6iuffs43lql.svg#iconfont') format('svg');
+  }
+
   html body {
     width: 100vw;
     min-height: 100vh;

@@ -29,7 +29,7 @@ async function play(url) {
         buffer = await getBuffer(url);
         localCache[url] = buffer;
     }
-    buffer && playAudio(buffer, audioContext);
+    playAudio(buffer, audioContext);
 }
 
 export default play;

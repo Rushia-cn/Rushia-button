@@ -1,20 +1,21 @@
 <template>
     <div class="btn-wrapper">
-        <div class="nav-btn" :class="{grow: localized(route.name)}" v-for="(route, index) in routes" :key="index" :title="route.name" @click="window.location = route.to">
-            <Icon class="icon" :type="route.icon" :href="route.to"/>
+        <div class="nav-btn" :class="{grow: localized(route.name)}" v-for="(route, index) in routes" :key="index"
+            :title="route.name" @click="window.location = route.to">
             <a :name="route.name.en">{{localized(route.name)}}</a>
+            <i class="iconfont" v-html="route.icon"></i>
         </div>
     </div>
 </template>
 <script>
-    import { Icon } from 'ant-design-vue';
     export default {
         name: "btn-nav",
         props: ["routes"],
-        components: { Icon },
-        data(){ return { window } },
+        computed: {
+            window(){return window}
+        },
         methods: {
-            localized(name){
+            localized(name) {
                 return name[this.$i18n.locale] || name["en"] || ""
             }
         }
@@ -27,6 +28,16 @@
         padding: 1rem;
         justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .iconfont {
+        font-family: "iconfont" !important;
+        font-size: 20px;
+        font-style: normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+        color: #001f3f;
     }
 
     .nav-btn {
@@ -47,20 +58,19 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        flex-grow: 1;
+        flex-grow: 0;
     }
 
     .grow {
-        flex-grow: 1000;
+        flex-grow: 1;
+    }
+
+    .grow a {
+        margin-right: 10px;
     }
 
     .nav-btn a:not([name=""]) {
         text-decoration: none;
         margin-left: 0.4rem;
-    }
-
-    .icon {
-        color: #001f3f;
-        
     }
 </style>
