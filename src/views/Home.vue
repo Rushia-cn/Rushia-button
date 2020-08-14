@@ -18,11 +18,42 @@
         loading: true
       }
     },
+    methods: {
+      parseCategory(loaded){
+        Object.entries(loaded.categories).forEach(([k, v]) => {
+          loaded.categories[k] = {
+            name: v,
+            clips: []
+          }
+        })
+        Object.values(loaded.clips).forEach(v => {
+          loaded.categories[v.category].clips.push(v)
+        })
+        console.log(Object.values(loaded.categories))
+        return Object.values(loaded.categories)
+      }
+    },
     asyncComputed: {
       async categories() {
         const loaded = (await this.$a.get("https://category.rushia.moe")).data
         this.loading = false
-        return loaded
+        /*
+        loaded[0] = {
+          clips: [],
+          catId: 'test',
+          name: {
+            en: 'test'
+          }
+        }
+        // A mp3 clip borrowed from suisei.moe for test purpose
+        loaded[0].clips.push({
+          name: {
+            en: "test"
+          },
+          url: "https://suisei.moe/assets/doooooooooo.mp3"
+        })
+        */
+        return this.parseCategory(loaded)
       }
     }
   }
