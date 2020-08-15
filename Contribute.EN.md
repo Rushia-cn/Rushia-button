@@ -1,4 +1,6 @@
 # How to contribute new clips to Rushia Button?
+[中文](https://github.com/Rushia-cn/Rushia-button/blob/master/Contribute.md)
+
 Send us the link to a video (youtube link is recommended for convinience of downloading stand-alone audio files) and time (start and end) for that clip. We will handle the rest. Please provide the name. I18n is recommended -- we currently support ZH and EN, planning to add support for JP in future. 
 You can use:
 #### Telegram

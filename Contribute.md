@@ -1,4 +1,6 @@
 # 如何为棕按钮贡献新片段？
+[English](https://github.com/Rushia-cn/Rushia-button/blob/master/Contribute.EN.md)
+
 ### 新的音频片段
 目前有两个办法来添加新的音频片段：
 - 直接将音频文件和信息发送给我们
