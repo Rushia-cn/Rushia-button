@@ -10,11 +10,6 @@ Vue.use(VueRouter)
     component: () => import('@/views/Home.vue')
   },
   {
-    path: '/contribute',
-    name: 'Contribute',
-    component: () => import('@/views/Contribute.vue')
-  },
-  {
     path: '/color',
     name: 'Color Settings',
     component: () => import('@/views/Color.vue')

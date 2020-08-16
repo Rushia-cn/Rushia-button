@@ -35,7 +35,7 @@
     },
     asyncComputed: {
       async categories() {
-        const loaded = (await this.$a.get("https://category.rushia.moe")).data
+        const loaded = (await this.$a.get("https://rushia.moe/category")).data
         this.loading = false
         /*
         loaded[0] = {

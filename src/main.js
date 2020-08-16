@@ -18,6 +18,10 @@ Vue.use(AsyncComputed)
 Vue.prototype.$play = play
 Vue.prototype.$loc = name => name[i18n.locale] || name["en"] || ""
 Vue.prototype.$a = axios
+Vue.prototype.setLoc = (locale) => {
+  i18n.locale = locale;
+  return locale
+}
 Vue.config.productionTip = false
 
 new Vue({

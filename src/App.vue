@@ -1,6 +1,13 @@
 <template>
   <div id="app"
-    :style="{'--background': background, '--btn-color': btnColor, '--box-shadow': boxShadow,'--font-color': fontColor}">
+    :style="{
+      '--background': background, 
+      '--btn-color': btnColor, 
+      '--box-shadow': boxShadow.shadow,
+      '--hover-shadow': boxShadow.hover,
+      '--font-color': fontColor
+      }
+    ">
     <div id="wrap">
       <div id="nav">
         <Nav :routes="routes" />
@@ -27,8 +34,8 @@
       return {
         routes: [
           { 'icon': '&#xe630;', 'title': 'Home', 'name': { 'en': 'Rushia Button', 'zh': '粽按钮' }, 'to': '/#/' },
-          { 'icon': '&#xe617;', 'title': 'Contribute', 'name': { 'en': 'Contribute', 'zh': '贡献' }, 'to': '/#/contribute' },
           { 'icon': '&#xe618;', 'title': 'Color Pallet', 'name': { 'en': 'Color Pallet', 'zh': '调色板' }, 'to': '/#/color' },
+          { 'icon': '&#xe617;', 'title': 'Contribute', 'name': { 'en': 'Contribute', 'zh': '贡献' }, 'to': 'https://github.com/Rushia-cn/Rushia-button/blob/master/Contribute.md'},
           { 'icon': '&#xe600;', 'title': 'Youtube', 'name': { 'en': '' }, 'to': 'https://www.youtube.com/channel/UCl_gCybOJRIgOXw6Qb4qJzQ' },
           { 'icon': '&#xe7af;', 'title': 'Twitter', 'name': { 'en': '' }, 'to': 'https://twitter.com/uruharushia' },
           { 'icon': '&#xe75c;', 'title': 'Bilibili', 'name': { 'en': '' }, 'to': 'https://space.bilibili.com/443300418' },
@@ -46,7 +53,10 @@
         const bs = this.colorChoosed.boxShadow; // Box Shadow
         const i = this.colorChoosed.distance || 10; // distance
         const b = this.colorChoosed.blur || 2 * i; // blur
-        return `${i}px ${i}px ${b}px ${bs[0]}, -${i}px -${i}px ${b}px ${bs[1]}`
+        return {
+          shadow: `${i}px ${i}px ${b}px ${bs[0]}, -${i}px -${i}px ${b}px ${bs[1]}`,
+          hover: `${i}px ${i}px 4px ${bs[0]}, -${i}px -${i}px 4px ${bs[1]}`
+        }
       }
     }
   }

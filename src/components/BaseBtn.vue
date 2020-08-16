@@ -1,7 +1,7 @@
 <template>
-    <div class="btn" @click="$play(url)">
+    <a class="btn" @click="$play(url)">
         {{ $loc(btnName) }}
-    </div>
+    </a>
 </template>
 <script>
     export default {
@@ -22,9 +22,17 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: 0.3s ease;
+        transition: all 0.1s ease;
         margin: 0.8em;
         font-size: 1rem;
         cursor: pointer;
+    }
+
+    .btn:active {
+        transform: scale(1.05, 1.05);
+    }
+
+    .btn:hover {
+        box-shadow: var(--hover-shadow)
     }
 </style>
