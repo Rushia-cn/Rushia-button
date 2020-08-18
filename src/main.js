@@ -12,8 +12,6 @@ import {
   play
 } from '@/player'
 
-alert("网站出现bug暂时无法播放音频，正在紧急修复，非常抱歉")
-
 Vue.use(AsyncComputed)
 
 Vue.prototype.$play = play
