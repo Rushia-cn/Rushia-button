@@ -29,7 +29,6 @@
         Object.values(loaded.clips).forEach(v => {
           loaded.categories[v.category].clips.push(v)
         })
-        console.log(Object.values(loaded.categories))
         return Object.values(loaded.categories)
       }
     },

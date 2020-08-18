@@ -1,5 +1,21 @@
-function randomInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+function printASCII(){
+console.log(
+    function(){
+/*
+                       ___         ___           ___   
+                      /\  \       /\  \         /\  \  
+                     /::\  \     /::\  \       /::\  \ 
+                    /:/\:\__\   /:/\:\  \     /:/\:\__\
+                   /:/ /:/  /  /:/  \:\  \   /:/ /:/  /
+Made with ❤️ by   /:/_/:/  /  /:/__/ \:\__\ /:/_/:/  / 
+                  \:\/:/  /   \:\  \ /:/  / \:\/:/  /  
+                   \::/__/     \:\  /:/  /   \::/__/   
+                    \:\  \      \:\/:/  /     \:\  \   
+                     \:\__\      \::/  /       \:\__\  
+                      \/__/       \/__/         \/__/   
+*/
+}
+.toString().slice(20, -8))
 }
 
-export {randomInt, importAll}
+export {printASCII}

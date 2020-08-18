@@ -11,6 +11,7 @@ import router from './router'
 import {
   play
 } from '@/player'
+import { printASCII } from './utils'
 
 Vue.use(AsyncComputed)
 
@@ -22,6 +23,8 @@ Vue.prototype.setLoc = (locale) => {
   return locale
 }
 Vue.config.productionTip = false
+
+printASCII()
 
 new Vue({
   router,
