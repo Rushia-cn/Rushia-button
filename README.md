@@ -20,7 +20,7 @@ Vtuber [润羽露西娅](https://space.bilibili.com/443300418?) 的按钮面板
 ### MetaSource
 MetaSource是一个可以被访问的在线json文件，它存储了所有的分类和片段信息。棕按钮的MetaSource是 https://rushia.moe/category 。[Cloudflare Workers](https://workers.dev) 和 [Workers KV](https://www.cloudflare.com/products/workers-kv/)存放了棕按钮所有元内容。当然你可以使用别的文件存储或者自己的服务器，只需要遵守这个格式：
 
-```json
+```
 {
     categories: {
         $category_name: {

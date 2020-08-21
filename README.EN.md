@@ -21,7 +21,7 @@ It's really easy to do so! Just make sure you have these:
 ### MetaSource
 First what you need is a MetaSource which is an online **json** file that contains all category and clips info. For Rushia Button, it's https://rushia.moe/category. I use [Cloudflare Workers](https://workers.dev) and [Workers KV](https://www.cloudflare.com/products/workers-kv/) to host everything. You can use other file/object host or your own server to do so, as long as it follows this format:
 
-```json
+```
 {
     categories: {
         $category_name: {
