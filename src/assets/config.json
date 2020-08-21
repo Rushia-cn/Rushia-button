@@ -1,0 +1,174 @@
+{
+    "metaSource": "https://rushia.moe/category",
+    "locale": {
+        "default": "zh",
+        "fallback": "en"
+    },
+    "routes": [
+        {
+            "icon": "&#xe630;",
+            "title": "Home",
+            "name": {
+                "en": "Rushia Button",
+                "zh": "粽按钮"
+            },
+            "to": "/#/"
+        },
+        {
+            "icon": "&#xe618;",
+            "title": "Color Pallet",
+            "name": {
+                "en": "Color Pallet",
+                "zh": "调色板"
+            },
+            "to": "/#/color"
+        },
+        {
+            "icon": "&#xe617;",
+            "title": "Contribute",
+            "name": {
+                "en": "Contribute",
+                "zh": "贡献"
+            },
+            "to": "https://github.com/Rushia-cn/Rushia-button/blob/master/Contribute.md"
+        },
+        {
+            "icon": "&#xe600;",
+            "title": "Youtube",
+            "name": {
+                "en": ""
+            },
+            "to": "https://www.youtube.com/channel/UCl_gCybOJRIgOXw6Qb4qJzQ"
+        },
+        {
+            "icon": "&#xe7af;",
+            "title": "Twitter",
+            "name": {
+                "en": ""
+            },
+            "to": "https://twitter.com/uruharushia"
+        },
+        {
+            "icon": "&#xe75c;",
+            "title": "Bilibili",
+            "name": {
+                "en": ""
+            },
+            "to": "https://space.bilibili.com/443300418"
+        },
+        {
+            "icon": "&#xe685;",
+            "title": "Github",
+            "name": {
+                "en": ""
+            },
+            "to": "https://github.com/Rushia-cn/Rushia-button"
+        },
+        {
+            "icon": "&#xe9ac;",
+            "title": "Telegram",
+            "name": {
+                "en": ""
+            },
+            "to": "https://t.me/RushiaBtn"
+        }
+    ],
+    "colorPallet": [
+        {
+            "name": {
+                "en": "Classical high contrast",
+                "zh": "经典高对比度",
+                "jp": "ハイコントラスト"
+            },
+            "background": "#eaeaea",
+            "btnColor": "#65cdaa",
+            "fontColor": "#2c3e50",
+            "boxShadow": [
+                "#c6c6c6",
+                "#f8f8f8"
+            ],
+            "distance": 5,
+            "blur": 10
+        },
+        {
+            "name": {
+                "en": "Classical inverse high contrast",
+                "zh": "经典逆高对比度",
+                "jp": "逆ハイコントラスト"
+            },
+            "background": "#65cdaa",
+            "btnColor": "#eaeaea",
+            "fontColor": "#2c3e50",
+            "boxShadow": [
+                "#5cbb9b",
+                "#6edfb9"
+            ],
+            "distance": 5,
+            "blur": 10
+        },
+        {
+            "name": {
+                "en": "Shape of Rushia",
+                "zh": "粽子的形状",
+                "jp": "るしあの形"
+            },
+            "background": "#65cdaa",
+            "btnColor": "#65cdaa",
+            "fontColor": "#2c3e50",
+            "boxShadow": [
+                "#5cbb9b",
+                "#6edfb9"
+            ],
+            "distance": 5,
+            "blur": 10
+        },
+        {
+            "name": {
+                "en": "Pink Rushia high contrast",
+                "zh": "粉粽子高对比度",
+                "jp": "ピンクなハイコントラスト"
+            },
+            "background": "#eaeaea",
+            "btnColor": "#c39dd2",
+            "fontColor": "#191919",
+            "boxShadow": [
+                "#c9c9c9",
+                "#f5f5f5"
+            ],
+            "distance": 5,
+            "blur": 10
+        },
+        {
+            "name": {
+                "en": "Shape of pink Rushia",
+                "zh": "粉粽子的形状",
+                "jp": "ピンクなるしあの形"
+            },
+            "background": "#c39dd2",
+            "btnColor": "#c39dd2",
+            "fontColor": "#191919",
+            "boxShadow": [
+                "#ae8cbb",
+                "#d8aee9"
+            ],
+            "distance": 5,
+            "blur": 10
+        },
+        {
+            "name": {
+                "en": "WTF IS THIS",
+                "zh": "这TM是啥",
+                "jp": "なんじゃこりゃー"
+            },
+            "background": "#c39dd2",
+            "btnColor": "#65cdaa",
+            "fontColor": "#191919",
+            "boxShadow": [
+                "#ae8cbb",
+                "#d8aee9"
+            ],
+            "distance": 5,
+            "blur": 10
+        }
+    ]
+}

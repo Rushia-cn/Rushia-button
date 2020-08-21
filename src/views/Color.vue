@@ -1,6 +1,6 @@
 <template>
     <div id='color-setting'>
-        <ColorCard v-for="(color, index) in $store.state.colorPallet" :key="index" :cid="index" :color="color"></ColorCard>
+        <ColorCard v-for="(color, index) in $store.state.config.colorPallet" :key="index" :cid="index" :color="color"></ColorCard>
     </div>
 </template>
 <script>

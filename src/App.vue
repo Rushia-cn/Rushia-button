@@ -18,9 +18,7 @@
 </template>
 <script>
   import Nav from '@/components/Nav.vue'
-  import json from '@/assets/colorPallet.json'
   export default {
-    colorPallets: json,
     components: {
       Nav
     },
@@ -30,21 +28,8 @@
         this.locale = lang;
       }
     },
-    data() {
-      return {
-        routes: [
-          { 'icon': '&#xe630;', 'title': 'Home', 'name': { 'en': 'Rushia Button', 'zh': '粽按钮' }, 'to': '/#/' },
-          { 'icon': '&#xe618;', 'title': 'Color Pallet', 'name': { 'en': 'Color Pallet', 'zh': '调色板' }, 'to': '/#/color' },
-          { 'icon': '&#xe617;', 'title': 'Contribute', 'name': { 'en': 'Contribute', 'zh': '贡献' }, 'to': 'https://github.com/Rushia-cn/Rushia-button/blob/master/Contribute.md'},
-          { 'icon': '&#xe600;', 'title': 'Youtube', 'name': { 'en': '' }, 'to': 'https://www.youtube.com/channel/UCl_gCybOJRIgOXw6Qb4qJzQ' },
-          { 'icon': '&#xe7af;', 'title': 'Twitter', 'name': { 'en': '' }, 'to': 'https://twitter.com/uruharushia' },
-          { 'icon': '&#xe75c;', 'title': 'Bilibili', 'name': { 'en': '' }, 'to': 'https://space.bilibili.com/443300418' },
-          { 'icon': '&#xe685;', 'title': 'Github', 'name': { 'en': '' }, 'to': 'https://github.com/Rushia-cn/Rushia-button' },
-          { 'icon': '&#xe9ac;', 'title': 'Telegram', 'name': { 'en': '' }, 'to': 'https://t.me/RushiaBtn' },
-        ]
-      }
-    },
     computed: {
+      routes: function() { return this.$store.state.config.routes },
       colorChoosed: function () { return this.$store.getters.color },
       background: function () { return this.colorChoosed.background },
       btnColor: function () { return this.colorChoosed.btnColor },

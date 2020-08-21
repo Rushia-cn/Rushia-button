@@ -1,0 +1,10 @@
+{
+    "en": {
+        "demo_cat": "DEMO CATEGORY",
+        "demo_btn": "DEMO BUTTON"
+    },
+    "zh": {
+        "demo_cat": "测试用标题",
+        "demo_btn": "测试用按钮"
+    }
+}

@@ -1,18 +1,21 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import colorPallet from '@/assets/colorPallet.json'
+import config from '@/assets/config.json'
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
+    config,
     colorChoice: 0,
-    colorPallet,
   },
   getters: {
     color: state => {
-      return state.colorPallet[state.colorChoice]
+      return state.config.colorPallet[state.colorChoice]
+    },
+    metaSource: state => {
+      return state.config.metaSource
     }
   },
   mutations: {

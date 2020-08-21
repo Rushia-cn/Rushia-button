@@ -34,7 +34,7 @@
     },
     asyncComputed: {
       async categories() {
-        const loaded = (await this.$a.get("https://rushia.moe/category")).data
+        const loaded = (await this.$a.get(this.$store.getters.metaSource)).data
         this.loading = false
         /*
         loaded[0] = {
