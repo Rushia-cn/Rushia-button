@@ -56,5 +56,5 @@ I have made a [tool](https://github.com/Rushia-cn/Clipper-Core) for automaticall
 ### The website itself
 To make your own button panel, you only need to change `@/assets/config.json`.   
 `colorPallet` controls the overall color scheme of the site. For shadows, you can use neumorphism.io to generate the corresponding RGB value.  
-`Routes` controls the routes shows on the navBar. 
+`Routes` controls the routes shows on the `navBar`. 
 
