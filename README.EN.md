@@ -54,7 +54,7 @@ Then you need some place to host all your audio clips. I use [Backblaze B2](http
 I have made a [tool](https://github.com/Rushia-cn/Clipper-Core) for automatically download, trim and publish audio clips. Check it out!
 
 ### The website itself
-To make your own button panel, you only need to change `@/assets/config.json`.   
+To make your own button panel, you only need to change `config.json`.   
 `colorPallet` controls the overall color scheme of the site. For shadows, you can use neumorphism.io to generate the corresponding RGB value.  
 `Routes` controls the routes shows on the `navBar`. 
 

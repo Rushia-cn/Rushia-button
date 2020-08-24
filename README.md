@@ -53,6 +53,6 @@ MetaSource是一个可以被访问的在线json文件，它存储了所有的分
 Clipper是一个用来自动裁剪音频片段的[工具](https://github.com/Rushia-cn/Clipper-Core)。你也可以选择自己手动剪辑。
 
 ### 网站本身
-你只需要修改 `@/assets/config.json` 即可获得一个完全自定义的按钮站！  
+你只需要修改 `config.json` 即可获得一个完全自定义的按钮站！  
 `colorPallet` 负责整个网站的颜色。阴影部分可以用 neumorphism.io 来生成RGB值。  
 `Routes` 负责 `navBar` 上面的链接和按钮。

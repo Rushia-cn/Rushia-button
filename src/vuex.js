@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import config from '@/assets/config.json'
+import config from '../config.json'
 
 Vue.use(Vuex);
 
