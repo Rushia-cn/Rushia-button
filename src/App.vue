@@ -1,6 +1,5 @@
 <template>
-  <div id="app"
-    :style="{
+<div id="app" :style="{
       '--background': background, 
       '--btn-color': btnColor, 
       '--box-shadow': boxShadow.shadow,
@@ -9,68 +8,79 @@
       }
     ">
     <div id="wrap">
-      <div id="nav">
-        <Nav :routes="routes" />
-      </div>
-      <router-view />
+        <div id="nav">
+            <Nav :routes="routes" />
+        </div>
+        <router-view />
     </div>
-  </div>
+</div>
 </template>
+
 <script>
-  import Nav from '@/components/Nav.vue'
-  export default {
+import Nav from '@/components/Nav.vue'
+export default {
     components: {
-      Nav
+        Nav
     },
-    mounted() { window.vue = this },
+    created() {
+        var head = document.getElementsByTagName('head')[0]
+        var link = document.createElement('link')
+        link.type = 'text/css'
+        link.rel = 'stylesheet'
+        link.href = this.$store.state.config.iconfont
+        head.appendChild(link)
+    },
+    mounted() {
+        window.vue = this
+    },
     methods: {
-      locale(lang) {
-        this.locale = lang;
-      }
+        locale(lang) {
+            this.locale = lang;
+        }
     },
     computed: {
-      routes: function() { return this.$store.state.config.routes },
-      colorChoosed: function () { return this.$store.getters.color },
-      background: function () { return this.colorChoosed.background },
-      btnColor: function () { return this.colorChoosed.btnColor },
-      fontColor: function () { return this.colorChoosed.fontColor },
-      boxShadow: function () {
-        const bs = this.colorChoosed.boxShadow; // Box Shadow
-        const i = this.colorChoosed.distance || 10; // distance
-        const b = this.colorChoosed.blur || 2 * i; // blur
-        return {
-          shadow: `${i}px ${i}px ${b}px ${bs[0]}, -${i}px -${i}px ${b}px ${bs[1]}`,
-          hover: `${i}px ${i}px 4px ${bs[0]}, -${i}px -${i}px 4px ${bs[1]}`
+        routes: function () {
+            return this.$store.state.config.routes
+        },
+        colorChoosed: function () {
+            return this.$store.getters.color
+        },
+        background: function () {
+            return this.colorChoosed.background
+        },
+        btnColor: function () {
+            return this.colorChoosed.btnColor
+        },
+        fontColor: function () {
+            return this.colorChoosed.fontColor
+        },
+        boxShadow: function () {
+            const bs = this.colorChoosed.boxShadow; // Box Shadow
+            const i = this.colorChoosed.distance || 10; // distance
+            const b = this.colorChoosed.blur || 2 * i; // blur
+            return {
+                shadow: `${i}px ${i}px ${b}px ${bs[0]}, -${i}px -${i}px ${b}px ${bs[1]}`,
+                hover: `${i}px ${i}px 4px ${bs[0]}, -${i}px -${i}px 4px ${bs[1]}`
+            }
         }
-      }
     }
-  }
+}
 </script>
-<style>
-  @font-face {
-    font-family: 'iconfont';
-    /* project id 1914903 */
-    src: url('//at.alicdn.com/t/font_1914903_d8b3vg7ilf5.eot');
-    src: url('//at.alicdn.com/t/font_1914903_d8b3vg7ilf5.eot?#iefix') format('embedded-opentype'),
-      url('//at.alicdn.com/t/font_1914903_d8b3vg7ilf5.woff2') format('woff2'),
-      url('//at.alicdn.com/t/font_1914903_d8b3vg7ilf5.woff') format('woff'),
-      url('//at.alicdn.com/t/font_1914903_d8b3vg7ilf5.ttf') format('truetype'),
-      url('//at.alicdn.com/t/font_1914903_d8b3vg7ilf5.svg#iconfont') format('svg');
-  }
 
-  html body {
+<style>
+html body {
     width: 100vw;
     min-height: 100vh;
     margin: 0;
     background: var(--background);
-  }
+}
 
-  #wrap {
+#wrap {
     max-width: 70rem;
     margin: auto;
-  }
+}
 
-  #app {
+#app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -80,14 +90,14 @@
     background-color: var(--background);
     min-height: 100vh;
     box-sizing: border-box;
-  }
+}
 
-  #nav a {
+#nav a {
     font-weight: bold;
     color: #001f3f;
-  }
+}
 
-  #nav a.router-link-exact-active {
+#nav a.router-link-exact-active {
     color: #42b983;
-  }
+}
 </style>

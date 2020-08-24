@@ -4,6 +4,7 @@
         "default": "zh",
         "fallback": "en"
     },
+    "iconfont": "//at.alicdn.com/t/font_1914903_d8b3vg7ilf5.css",
     "routes": [
         {
             "icon": "&#xe630;",
