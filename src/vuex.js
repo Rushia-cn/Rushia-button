@@ -8,7 +8,7 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     config,
-    colorChoice: 0,
+    colorChoice: config.defaultColorIndex,
   },
   getters: {
     color: state => {

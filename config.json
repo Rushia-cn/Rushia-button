@@ -74,6 +74,7 @@
             "to": "https://t.me/RushiaBtn"
         }
     ],
+    "defaultColorIndex": 0,
     "colorPallet": [
         {
             "name": {
